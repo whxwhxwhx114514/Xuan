@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="iosBackground">#F2F2F7</color>
+    <color name="iosCard">#FFFFFF</color>
+    <color name="iosBlue">#007AFF</color>
+    <color name="iosRed">#FF3B30</color>
+    <color name="iosGreen">#34C759</color>
+    <color name="iosOrange">#FF9500</color>
+    <color name="iosGray">#8E8E93</color>
+    <color name="iosDarkText">#1C1C1E</color>
+    <color name="iosLightText">#8E8E93</color>
+    <color name="iosSeparator">#E5E5EA</color>
+    <color name="iosTint">#007AFF</color>
+</resources>

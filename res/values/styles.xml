@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/iosBlue</item>
+        <item name="android:colorPrimaryDark">@color/iosBlue</item>
+        <item name="android:colorAccent">@color/iosBlue</item>
+        <item name="android:windowBackground">@color/iosBackground</item>
+        <item name="android:statusBarColor">@color/iosBackground</item>
+        <item name="android:navigationBarColor">@color/iosBackground</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="IOSCard" parent="android:Widget">
+        <item name="android:background">@drawable/ios_card_bg</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="IOSButton" parent="android:Widget.Button">
+        <item name="android:background">@drawable/ios_btn_bg</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:minHeight">44dp</item>
+    </style>
+
+    <style name="IOSButtonDanger" parent="IOSButton">
+        <item name="android:background">@drawable/ios_btn_danger_bg</item>
+    </style>
+
+    <style name="IOSSheetDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="IOSSheetAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+</resources>

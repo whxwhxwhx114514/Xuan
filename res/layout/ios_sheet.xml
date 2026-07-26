@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ios_sheet_bg"
+    android:paddingBottom="32dp">
+
+    <!-- Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp">
+        <TextView
+            android:id="@+id/sheet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="#8E8E93"
+            android:text="选择操作" />
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E5E5EA" />
+
+    <!-- Action list -->
+    <LinearLayout
+        android:id="@+id/sheet_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <!-- Cancel -->
+    <TextView
+        android:id="@+id/sheet_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="取消"
+        android:textSize="18sp"
+        android:textColor="#007AFF"
+        android:textStyle="bold"
+        android:background="@drawable/ios_sheet_item_bg"
+        android:layout_marginTop="8dp"
+        android:clickable="true" />
+
+</LinearLayout>

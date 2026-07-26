@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xuan</string>
+    <string name="search_hint">搜索应用…</string>
+    <string name="all_apps">全部应用</string>
+    <string name="system_apps">系统应用</string>
+    <string name="user_apps">用户应用</string>
+    <string name="uninstall">卸载</string>
+    <string name="extract">提取APK</string>
+    <string name="rename_package">改包名</string>
+    <string name="freeze">冻结</string>
+    <string name="unfreeze">解冻</string>
+    <string name="clear_data">清除数据</string>
+    <string name="force_stop">强制停止</string>
+    <string name="permissions">权限管理</string>
+    <string name="launch">启动</string>
+    <string name="details">详情</string>
+    <string name="sign_info">签名信息</string>
+    <string name="share_apk">分享APK</string>
+    <string name="no_root">未获取Root权限</string>
+    <string name="root_ok">Root权限已就绪</string>
+    <string name="confirm_uninstall">确定要卸载此应用吗？</string>
+    <string name="confirm_freeze">确定要冻结此应用吗？</string>
+    <string name="apk_extracted">APK已提取到Download/Xuan/</string>
+    <string name="apk_not_found">未找到APK文件</string>
+    <string name="batch_mode">批量操作</string>
+    <string name="select_all">全选</string>
+    <string name="done">完成</string>
+</resources>
